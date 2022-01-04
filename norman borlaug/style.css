@@ -1,0 +1,47 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+#main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title,
+#tribute-link,
+#img-caption {
+  text-align: center;
+  margin-top: 1em;
+}
+.text {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-size: 0.9em;
+}
+#tribute-info {
+  text-align: center;
+  font-weight: 700;
+  font-size: larger;
+  margin: 10%;
+}
+li {
+  margin: 1em;
+}
+@media only screen and (max-width: 375px) {
+  .text {
+    width: 100%;
+
+    text-align: left;
+    font-size: 0.9em;
+  }
+  img {
+    width: 70vw;
+    height: 30vh;
+    margin-top: 5%;
+  }
+}
